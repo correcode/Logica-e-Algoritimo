@@ -7,7 +7,7 @@ public class ImparPar {
         System.out.println("O total de numero impares na lista é: " + ehImpar(numeros));
 
     }
-    public static int ehImpar(int[] numeros){
+    public static int ehPar(int[] numeros){
         int soma = 0;
         for(int n : numeros){
             if(n % 2 == 0){
@@ -16,7 +16,7 @@ public class ImparPar {
         }
         return soma;
     }
-    public static int ehPar(int[] numeros) {
+    public static int ehImpar(int[] numeros) {
         int soma = 0;
         for(int n : numeros) {
             if(n % 2 != 0) {
